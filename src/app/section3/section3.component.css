@@ -1,0 +1,37 @@
+.header {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    margin: 0;
+    color: #131313;
+    line-height: 60px;
+}
+
+h2 {
+    display: block;
+    font-family: Obj2;
+    color: #3895D0;
+}
+
+#stwo {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#stwo .ourCustomersImagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 73%;
+}
+
+.hline {
+    border-top: 1px solid black;
+    border: 1;
+    width: 100%;
+}

@@ -1,0 +1,70 @@
+.cola {
+    padding: 9rem;
+    display: grid;
+    text-align: end;
+}
+
+button {
+    width: 10rem;
+    background-color: #3895D0;
+    border-radius: 22px;
+    border-color: #3895D0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all .25s ease;
+    outline: none;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+button.primary:hover {
+    box-shadow: 0 5px 20px -4px #002bdc;
+}
+
+h1 {
+    padding-top: inherit;
+    font-weight: 700;
+    color: #3895D0;
+}
+
+p {
+    font-size: 20px;
+    color: #7c87b2;
+}
+
+ul {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    list-style: none;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: Obj2;
+    padding-left: inherit;
+}
+
+ul li {
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+    opacity: 1;
+}
+
+ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #636363;
+    transition: all .25s ease-in-out;
+    font-weight: 500;
+}
+
+li a:hover {
+    opacity: 0.5;
+}
+
+.row {
+    flex-direction: row-reverse;
+    padding: 0px 12rem;
+    background-color: #f2f4fd;
+}
